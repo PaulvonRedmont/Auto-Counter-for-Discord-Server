@@ -1,7 +1,5 @@
 import pyautogui
 import time
-import tkinter
-import math
 import keyboard
 
 running = False
@@ -15,6 +13,7 @@ def count():
     numbers_counted += 1
     pyautogui.write(f"{numbers_counted}")
     pyautogui.press('enter')
+    print(f"Just counted {numbers_counted}")
     time.sleep(1)
 
 def toggle_program():
