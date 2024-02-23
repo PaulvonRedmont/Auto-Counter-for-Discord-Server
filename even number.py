@@ -1,7 +1,7 @@
 import pyautogui
 import time
 import keyboard
-
+ 
 running = False
 numbers_counted = 0
 iterations = 0
